@@ -8,7 +8,6 @@ public class Stall
     public string Coordinates { get; set; }
     public int EventId { get; set; }
 
-    // Remove or mark Floor as NotMapped if it's not part of the database
-    [NotMapped]
+  
     public string Floor { get; set; }
 }

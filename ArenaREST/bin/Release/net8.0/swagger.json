@@ -349,11 +349,14 @@
         "type": {
           "type": "string"
         },
-        "floor": {
+        "coordinates": {
+          "type": "string"
+        },
+        "eventId": {
           "format": "int32",
           "type": "integer"
         },
-        "coordinates": {
+        "floor": {
           "type": "string"
         }
       },
