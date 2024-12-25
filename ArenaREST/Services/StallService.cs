@@ -19,8 +19,11 @@ namespace ArenaREST.Services
 
         public async Task<Stall> AddStall(Stall stall)
         {
-            return await _stallRepository.AddStall(stall);
+            var createdStall = await _stallRepository.AddAndReturnStall(stall);
+            return createdStall;
         }
+
+
 
         public async Task<Stall?> UpdateStall(int stallId, Stall updatedStall)
         {

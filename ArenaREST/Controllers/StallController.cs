@@ -29,6 +29,7 @@ namespace ArenaREST.Controllers
             return CreatedAtAction(nameof(GetAllStalls), new { id = newStall.StallId }, newStall);
         }
 
+
         [HttpPut("{stallId}")]
         public async Task<IActionResult> UpdateStall(int stallId, [FromBody] Stall updatedStall)
         {

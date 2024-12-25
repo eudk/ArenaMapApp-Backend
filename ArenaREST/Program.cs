@@ -34,6 +34,7 @@ builder.Services.AddScoped<StallService>();
 builder.Services.AddScoped<MenuService>();
 builder.Services.AddScoped<OrderService>();
 builder.Services.AddScoped<QRService>();
+builder.Services.AddScoped<EventService>();
 
 var app = builder.Build();
 

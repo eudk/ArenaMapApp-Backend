@@ -2,13 +2,27 @@
 
 public class Order
 {
-    public int OrderId { get; set; }
+    public int OrderId { get; set; } // Primary Key
     public string Email { get; set; }
+    public int MenuItemId { get; set; }
     public bool IsCompleted { get; set; }
-    public DateTime OrderDate { get; set; }
-    public int StallId { get; set; }
-    public Stall Stall { get; set; }
-    public int MenuItemID { get; set; } // Foreign Key
+
+    // Navigation property for MenuItem
     public MenuItem MenuItem { get; set; }
-    public string? QRCodeBase64 { get; set; } // Base64 QR Code
+
+    // Navigation property for QRCode
+    public QRCode QRCode { get; set; }
+
+    // Convenience property for QRCodeBase64
+    public string? QRCodeBase64
+    {
+        get => QRCode?.QRCodeBase64;
+        set
+        {
+            if (QRCode != null)
+            {
+                QRCode.QRCodeBase64 = value;
+            }
+        }
+    }
 }
