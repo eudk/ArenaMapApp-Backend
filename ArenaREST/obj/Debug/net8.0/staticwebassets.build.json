@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AQS7+x29q9ZlAJh/Y64KmLb1BB89ACX1kFzYbtjCzJk=",
+  "Source": "ArenaREST",
+  "BasePath": "_content/ArenaREST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
