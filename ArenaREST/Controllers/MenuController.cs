@@ -2,43 +2,45 @@
 using ArenaREST.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ArenaREST.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class MenuController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class MenuController : ControllerBase
+    private readonly MenuService _menuService;
+
+    public MenuController(MenuService menuService)
     {
-        private readonly MenuService _menuService;
+        _menuService = menuService;
+    }
 
-        public MenuController(MenuService menuService)
+    [HttpGet("type/{stallType}")]
+    public IActionResult GetMenuItemsByType(string stallType)
+    {
+        var menuItems = _menuService.GetMenuItemsByType(stallType);
+        return Ok(menuItems);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> AddMenuItem([FromBody] MenuItem menuItem)
+    {
+        if (string.IsNullOrEmpty(menuItem.ImageBase64))
         {
-            _menuService = menuService;
+            return BadRequest(new { Message = "Image is required" });
         }
 
-        [HttpGet("event/{eventId}")]
-        public IActionResult GetMenuItemsForEvent(int eventId)
-        {
-            var menuItems = _menuService.GetMenuItemsForEvent(eventId);
-            return Ok(menuItems);
-        }
+        var createdItem = await _menuService.AddMenuItem(menuItem);
+        return CreatedAtAction(nameof(GetMenuItemsByType),
+            new { stallType = createdItem.StallType }, createdItem);
+    }
 
-        [HttpPost]
-        public async Task<IActionResult> AddMenuItem([FromBody] MenuItem menuItem)
+    [HttpDelete("{itemId}")]
+    public async Task<IActionResult> DeleteMenuItem(int itemId)
+    {
+        var result = await _menuService.DeleteMenuItem(itemId);
+        if (!result)
         {
-            var createdItem = await _menuService.AddMenuItem(menuItem);
-            return CreatedAtAction(nameof(GetMenuItemsForEvent), new { eventId = createdItem.EventID }, createdItem);
+            return NotFound(new { Message = "Menu item not found" });
         }
-
-        [HttpDelete("{itemId}")]
-        public async Task<IActionResult> DeleteMenuItem(int itemId)
-        {
-            var result = await _menuService.DeleteMenuItem(itemId);
-            if (!result)
-            {
-                return NotFound(new { Message = "Menu item not found" });
-            }
-
-            return NoContent();
-        }
+        return NoContent();
     }
 }

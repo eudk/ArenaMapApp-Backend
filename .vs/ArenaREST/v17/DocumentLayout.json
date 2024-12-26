@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\stallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\stallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\arenarest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\arenarest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\repositories\\stallrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\repositories\\stallrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,18 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\arenarest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\arenarest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\stallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\stallcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\context\\arenadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\qrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\services\\qrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\services\\qrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\services\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,32 +119,8 @@
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|c:\\users\\eugdk\\source\\repos\\arenamapapp-backend\\arenarest\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{652F0907-8364-40DF-8D75-E38BF7C02301}|ArenaREST\\ArenaREST.csproj|solutionrelative:arenarest\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,318 +145,20 @@
               "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Order.cs",
-              "RelativeToolTip": "ArenaREST\\Models\\Order.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBsAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "QRController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\QRController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\QRController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\QRController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\QRController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:07.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\MenuService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\MenuService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\MenuService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\MenuService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:17:14.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QRRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\QRRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\QRRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\QRRepository.cs",
-              "RelativeToolTip": "ArenaREST\\Repositories\\QRRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:40:32.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Stall.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Stall.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\Stall.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Stall.cs*",
-              "RelativeToolTip": "ArenaREST\\Models\\Stall.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:14.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StallRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\StallRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\StallRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\StallRepository.cs*",
-              "RelativeToolTip": "ArenaREST\\Repositories\\StallRepository.cs*",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:16:01.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:39:30.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StallService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\StallService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\StallService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\StallService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\StallService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:17:03.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StallController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\StallController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\StallController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\StallController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\StallController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAiwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:11:10.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Program.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Program.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Program.cs",
-              "RelativeToolTip": "ArenaREST\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvzUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:10:20.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Event.cs",
-              "RelativeToolTip": "ArenaREST\\Models\\Event.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:32.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ArenaREST.csproj",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\ArenaREST.csproj",
-              "RelativeDocumentMoniker": "ArenaREST\\ArenaREST.csproj",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\ArenaREST.csproj",
-              "RelativeToolTip": "ArenaREST\\ArenaREST.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T20:20:13.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\appsettings.json",
-              "RelativeDocumentMoniker": "ArenaREST\\appsettings.json",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\appsettings.json",
-              "RelativeToolTip": "ArenaREST\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T13:24:51.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\EventController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:39:48.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:10:44.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MenuRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\MenuRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\MenuRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\MenuRepository.cs",
-              "RelativeToolTip": "ArenaREST\\Repositories\\MenuRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:16:27.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ArenaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Context\\ArenaDbContext.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Context\\ArenaDbContext.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Context\\ArenaDbContext.cs",
-              "RelativeToolTip": "ArenaREST\\Context\\ArenaDbContext.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAADwvyIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:39:02.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "QRCode.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\QRCode.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\QRCode.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\QRCode.cs",
-              "RelativeToolTip": "ArenaREST\\Models\\QRCode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T15:43:36.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "QRService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\QRService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\QRService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\QRService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\QRService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:05:18.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\OrderService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\OrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:16:53.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EventsService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\EventsService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\EventsService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\EventsService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\EventsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:05:04.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\AdminService.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Services\\AdminService.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\AdminService.cs",
-              "RelativeToolTip": "ArenaREST\\Services\\AdminService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:16:42.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "ArenaREST\\Repositories\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:15:49.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "ArenaREST\\Repositories\\EventRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAADwvxoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:40:46.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\AdminRepository.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\AdminRepository.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\AdminRepository.cs",
-              "RelativeToolTip": "ArenaREST\\Repositories\\AdminRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:04:33.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\MenuItem.cs",
-              "RelativeToolTip": "ArenaREST\\Models\\MenuItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:29:21.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Menu.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Models\\Menu.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Menu.cs",
-              "RelativeToolTip": "ArenaREST\\Models\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:24.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "ArenaREST\\Models\\Admin.cs",
@@ -468,7 +170,341 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:10:44.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StallService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\StallService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\StallService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\StallService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\StallService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:17:03.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StallRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\StallRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\StallRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\StallRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\StallRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:16:01.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Stall.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Stall.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\Stall.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Stall.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\Stall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:14:14.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QRRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\QRRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\QRRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\QRRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\QRRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:40:32.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\MenuService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\MenuService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:17:14.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\MenuRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\MenuRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\MenuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:16:27.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Menu.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:14:24.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:11:26.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\MenuItem.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:29:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wBkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:10:58.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\EventController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:39:48.931Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArenaREST.csproj",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\ArenaREST.csproj",
+              "RelativeDocumentMoniker": "ArenaREST\\ArenaREST.csproj",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\ArenaREST.csproj",
+              "RelativeToolTip": "ArenaREST\\ArenaREST.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-22T20:20:13.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Event.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\Event.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:14:32.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Program.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Program.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Program.cs",
+              "RelativeToolTip": "ArenaREST\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvzUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:10:20.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StallController.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\StallController.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\StallController.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\StallController.cs",
+              "RelativeToolTip": "ArenaREST\\Controllers\\StallController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:11:10.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\Order.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\Order.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:14:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\appsettings.json",
+              "RelativeDocumentMoniker": "ArenaREST\\appsettings.json",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\appsettings.json",
+              "RelativeToolTip": "ArenaREST\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T13:24:51.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArenaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Context\\ArenaDbContext.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Context\\ArenaDbContext.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Context\\ArenaDbContext.cs",
+              "RelativeToolTip": "ArenaREST\\Context\\ArenaDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:39:02.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QRCode.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\QRCode.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Models\\QRCode.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Models\\QRCode.cs",
+              "RelativeToolTip": "ArenaREST\\Models\\QRCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T15:43:36.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QRService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\QRService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\QRService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\QRService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\QRService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:05:18.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\OrderService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:16:53.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventsService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\EventsService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\EventsService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\EventsService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\EventsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:05:04.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Services\\AdminService.cs",
+              "RelativeToolTip": "ArenaREST\\Services\\AdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:16:42.651Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:15:49.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\EventRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:40:46.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "ArenaREST\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "ArenaREST\\Repositories\\AdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:04:33.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ArenaREST\\Data\\DbInitializer.cs",
@@ -477,42 +513,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T14:20:25.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "QRController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\QRController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\QRController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\QRController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\QRController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:39:30.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAmwCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:10:58.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "ArenaREST\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaREST\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "ArenaREST\\Controllers\\MenuController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwBwAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:11:26.115Z"
             }
           ]
         }

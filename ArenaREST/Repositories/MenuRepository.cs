@@ -1,46 +1,40 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ArenaREST.Context;
+﻿using ArenaREST.Context;
 using ArenaREST.Models;
-using Microsoft.EntityFrameworkCore;
 
-namespace ArenaREST.Repositories
+public class MenuRepository
 {
-    public class MenuRepository
+    private readonly ArenaDbContext _context;
+
+    public MenuRepository(ArenaDbContext context)
     {
-        private readonly ArenaDbContext _context;
+        _context = context;
+    }
 
-        public MenuRepository(ArenaDbContext context)
+    public IEnumerable<MenuItem> GetMenuItemsByType(string stallType)
+    {
+        return _context.MenuItems
+            .Where(menuItem => menuItem.StallType.ToUpper() == stallType.ToUpper())
+            .ToList();
+    }
+
+    public async Task<MenuItem> AddMenuItem(MenuItem menuItem)
+    {
+        menuItem.StallType = menuItem.StallType.ToUpper(); // Ensure consistent casing
+        _context.MenuItems.Add(menuItem);
+        await _context.SaveChangesAsync();
+        return menuItem;
+    }
+
+    public async Task<bool> DeleteMenuItem(int itemId)
+    {
+        var menuItem = await _context.MenuItems.FindAsync(itemId);
+        if (menuItem == null)
         {
-            _context = context;
+            return false;
         }
 
-        public IEnumerable<MenuItem> GetMenuItemsForEvent(int eventId)
-        {
-            return _context.MenuItems 
-                .Where(menuItem => menuItem.EventID == eventId)
-                .ToList();
-        }
-
-        public async Task<MenuItem> AddMenuItem(MenuItem menuItem)
-        {
-            _context.MenuItems.Add(menuItem); 
-            await _context.SaveChangesAsync();
-            return menuItem;
-        }
-
-        public async Task<bool> DeleteMenuItem(int itemId)
-        {
-            var menuItem = await _context.MenuItems.FindAsync(itemId);
-            if (menuItem == null)
-            {
-                return false;
-            }
-
-            _context.MenuItems.Remove(menuItem); 
-            await _context.SaveChangesAsync();
-            return true;
-        }
+        _context.MenuItems.Remove(menuItem);
+        await _context.SaveChangesAsync();
+        return true;
     }
 }
