@@ -24,4 +24,10 @@ public class MenuService
     {
         return await _menuRepository.DeleteMenuItem(itemId);
     }
+
+    public IEnumerable<MenuItem> GetAllMenuItems()
+    {
+        return _menuRepository.GetAllMenuItems();
+    }
+
 }

@@ -1,5 +1,6 @@
 ﻿using ArenaREST.Context;
 using ArenaREST.Models;
+using Microsoft.EntityFrameworkCore;
 
 public class MenuRepository
 {
@@ -19,7 +20,7 @@ public class MenuRepository
 
     public async Task<MenuItem> AddMenuItem(MenuItem menuItem)
     {
-        menuItem.StallType = menuItem.StallType.ToUpper(); // Ensure consistent casing
+        menuItem.StallType = menuItem.StallType.ToUpper(); 
         _context.MenuItems.Add(menuItem);
         await _context.SaveChangesAsync();
         return menuItem;
@@ -36,5 +37,16 @@ public class MenuRepository
         _context.MenuItems.Remove(menuItem);
         await _context.SaveChangesAsync();
         return true;
+    }
+
+
+    public IEnumerable<MenuItem> GetAllMenuItems()
+    {
+        return _context.MenuItems.ToList();
+    }
+
+    public async Task<IEnumerable<MenuItem>> GetAllMenuItemsAsync()
+    {
+        return await _context.MenuItems.ToListAsync();
     }
 }

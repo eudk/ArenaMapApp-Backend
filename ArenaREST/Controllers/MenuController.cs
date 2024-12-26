@@ -43,4 +43,11 @@ public class MenuController : ControllerBase
         }
         return NoContent();
     }
+
+    [HttpGet("all")]
+    public IActionResult GetAllMenuItems()
+    {
+        var menuItems = _menuService.GetAllMenuItems();
+        return Ok(menuItems);
+    }
 }
