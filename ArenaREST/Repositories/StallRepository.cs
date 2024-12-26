@@ -15,16 +15,25 @@ namespace ArenaREST.Repositories
 
         public async Task<IEnumerable<Stall>> GetAllStalls()
         {
-            return await _context.Stalls.ToListAsync();
+            return await _context.Stalls
+                .Select(stall => new Stall
+                {
+                    StallId = stall.StallId,
+                    Name = stall.Name ?? "Unnamed Stall", 
+                    Type = stall.Type ?? "Unknown", 
+                    Coordinates = stall.Coordinates ?? "0,0", 
+                    EventId = stall.EventId, 
+                    Floor = stall.Floor ?? "Unknown Floor" 
+                })
+                .ToListAsync();
         }
+
 
         public async Task<Stall> AddAndReturnStall(Stall stall)
         {
-            // Add stall to the database
             var result = _context.Stalls.Add(stall);
             await _context.SaveChangesAsync();
 
-            // Return the newly created stall with its generated ID
             return result.Entity;
         }
 
