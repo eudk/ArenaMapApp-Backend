@@ -12,18 +12,27 @@ namespace ArenaREST.Repositories
         {
             _context = context;
         }
-        //logik for admin login
-        public async Task<Admin?> AuthenticateAsync(string username, string password)
+
+        public async Task<Admin?> GetAdminByUsername(string username)
         {
-            var hashedPassword = BCrypt.Net.BCrypt.HashPassword(password); 
-            var admin = await _context.Admins.FirstOrDefaultAsync(a => a.Username == username);
+            return await _context.Admins.FirstOrDefaultAsync(a => a.Username == username);
+        }
 
-            if (admin != null && BCrypt.Net.BCrypt.Verify(password, admin.Password))
-            {
-                return admin;
-            }
+        public async Task<bool> UpdateLastLogin(int adminId, DateTime lastLogin)
+        {
+            var admin = await _context.Admins.FindAsync(adminId);
+            if (admin == null) return false;
 
-            return null;
+            admin.LastLogin = lastLogin;
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> AddAdmin(Admin admin)
+        {
+            _context.Admins.Add(admin);
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }

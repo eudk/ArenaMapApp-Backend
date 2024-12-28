@@ -20,7 +20,7 @@
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": "#/definitions/AdminLoginModel"
+              "$ref": "#/definitions/LoginRequest"
             }
           }
         ],
@@ -313,7 +313,7 @@
     }
   },
   "definitions": {
-    "AdminLoginModel": {
+    "LoginRequest": {
       "type": "object",
       "properties": {
         "username": {
