@@ -18,6 +18,13 @@ builder.Services.AddCors(options =>
 });
 
 
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+    options.JsonSerializerOptions.WriteIndented = true;
+});
+
+
 builder.Services.AddDbContext<ArenaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -25,13 +32,13 @@ builder.Services.AddScoped<AdminRepository>();
 builder.Services.AddScoped<EventRepository>();
 builder.Services.AddScoped<MenuRepository>();
 builder.Services.AddScoped<OrderRepository>();
-builder.Services.AddScoped<QRRepository>();
+//builder.Services.AddScoped<QRRepository>();
 builder.Services.AddScoped<StallRepository>();
 
 builder.Services.AddScoped<StallService>();
 builder.Services.AddScoped<MenuService>();
 builder.Services.AddScoped<OrderService>();
-builder.Services.AddScoped<QRService>();
+//builder.Services.AddScoped<QRService>();
 builder.Services.AddScoped<EventService>();
 builder.Services.AddScoped<AdminService>();
 

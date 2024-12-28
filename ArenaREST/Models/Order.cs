@@ -1,28 +1,13 @@
-﻿using ArenaREST.Models;
-
-public class Order
+﻿namespace ArenaREST.Models
 {
-    public int OrderId { get; set; } // Primary Key
-    public string Email { get; set; }
-    public int MenuItemId { get; set; }
-    public bool IsCompleted { get; set; }
-
-    // Navigation property for MenuItem
-    public MenuItem MenuItem { get; set; }
-
-    // Navigation property for QRCode
-    public QRCode QRCode { get; set; }
-
-    // Convenience property for QRCodeBase64
-    public string? QRCodeBase64
+    public class Order
     {
-        get => QRCode?.QRCodeBase64;
-        set
-        {
-            if (QRCode != null)
-            {
-                QRCode.QRCodeBase64 = value;
-            }
-        }
+        public int OrderId { get; set; }
+        public string Email { get; set; }
+        public decimal TotalAmount { get; set; }
+        public bool IsCompleted { get; set; }
+        public string QrCodeUrl => $"https://your-domain.com/api/order/{OrderId}/complete"; 
+        public DateTime CreatedAt { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>(); 
     }
 }

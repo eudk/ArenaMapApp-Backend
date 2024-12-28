@@ -64,7 +64,7 @@
         }
       }
     },
-    "/api/Menu/event/{eventId}": {
+    "/api/Menu/type/{stallType}": {
       "get": {
         "tags": [
           "Menu"
@@ -72,10 +72,9 @@
         "parameters": [
           {
             "in": "path",
-            "name": "eventId",
+            "name": "stallType",
             "required": true,
-            "type": "integer",
-            "format": "int32"
+            "type": "string"
           }
         ],
         "responses": {
@@ -132,6 +131,18 @@
         }
       }
     },
+    "/api/Menu/all": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Order/active": {
       "get": {
         "tags": [
@@ -144,8 +155,34 @@
         }
       }
     },
+    "/api/Order": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Order"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Order/{orderId}/complete": {
-      "put": {
+      "get": {
         "tags": [
           "Order"
         ],
@@ -165,31 +202,10 @@
         }
       }
     },
-    "/api/QR/generate/{orderId}": {
-      "post": {
-        "tags": [
-          "QR"
-        ],
-        "parameters": [
-          {
-            "in": "path",
-            "name": "orderId",
-            "required": true,
-            "type": "integer",
-            "format": "int32"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/QR/{orderId}": {
+    "/api/Order/{orderId}": {
       "get": {
         "tags": [
-          "QR"
+          "Order"
         ],
         "parameters": [
           {
@@ -322,16 +338,77 @@
         "description": {
           "type": "string"
         },
-        "image": {
+        "imageBase64": {
           "type": "string"
         },
         "price": {
           "format": "double",
           "type": "number"
         },
-        "eventID": {
+        "stallType": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Order": {
+      "type": "object",
+      "properties": {
+        "orderId": {
           "format": "int32",
           "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "totalAmount": {
+          "format": "double",
+          "type": "number"
+        },
+        "isCompleted": {
+          "type": "boolean"
+        },
+        "qrCodeUrl": {
+          "type": "string",
+          "readOnly": true
+        },
+        "createdAt": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "orderItems": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrderItem"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "OrderItem": {
+      "type": "object",
+      "properties": {
+        "orderItemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "orderId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "menuItemId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "quantity": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "order": {
+          "$ref": "#/definitions/Order"
+        },
+        "menuItem": {
+          "$ref": "#/definitions/MenuItem"
         }
       },
       "additionalProperties": false
