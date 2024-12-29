@@ -26,18 +26,27 @@ public class MenuRepository
         return menuItem;
     }
 
-    public async Task<bool> DeleteMenuItem(int itemId)
+    public async Task<bool> DeleteMenuItem(int menuItemId)
     {
-        var menuItem = await _context.MenuItems.FindAsync(itemId);
-        if (menuItem == null)
+        var dependentOrderItems = await _context.OrderItems
+            .Where(oi => oi.MenuItemId == menuItemId)
+            .ToListAsync();
+
+        if (dependentOrderItems.Any())
         {
-            return false;
+            _context.OrderItems.RemoveRange(dependentOrderItems);
+            await _context.SaveChangesAsync();
         }
+
+        var menuItem = await _context.MenuItems.FindAsync(menuItemId);
+        if (menuItem == null) return false;
 
         _context.MenuItems.Remove(menuItem);
         await _context.SaveChangesAsync();
+
         return true;
     }
+
 
 
     public IEnumerable<MenuItem> GetAllMenuItems()

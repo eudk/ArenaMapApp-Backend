@@ -49,12 +49,13 @@ namespace ArenaREST.Context
                 .HasForeignKey(oi => oi.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<OrderItem>()
-                .HasOne(oi => oi.MenuItem)
-                .WithMany()
-                .HasForeignKey(oi => oi.MenuItemId)
-                .OnDelete(DeleteBehavior.Restrict);
-        }
+    modelBuilder.Entity<OrderItem>()
+          .HasOne(oi => oi.MenuItem)
+          .WithMany()
+          .HasForeignKey(oi => oi.MenuItemId)
+          .OnDelete(DeleteBehavior.Cascade);
+
+            }
 
 
 
