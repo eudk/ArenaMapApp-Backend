@@ -2,6 +2,10 @@
 using ArenaREST.Services;
 using Microsoft.AspNetCore.Mvc;
 using ArenaREST.DTOs;
+using AutoMapper;
+using static QRCoder.PayloadGenerator;
+using System.Text;
+using System;
 
 namespace ArenaREST.Controllers
 {
@@ -53,8 +57,7 @@ namespace ArenaREST.Controllers
                 return NotFound(new { Message = "Order not found" });
             }
 
-            return Ok(order); 
+            return Ok(order);
         }
-
     }
 }
