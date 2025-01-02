@@ -1,6 +1,7 @@
 ﻿using ArenaREST.Models;
 using ArenaREST.Services;
 using Microsoft.AspNetCore.Mvc;
+using ArenaREST.DTOs;
 
 namespace ArenaREST.Controllers
 {
@@ -21,6 +22,7 @@ namespace ArenaREST.Controllers
             var activeOrders = await _orderService.GetActiveOrders();
             return Ok(activeOrders);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] Order order)

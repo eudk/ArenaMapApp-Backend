@@ -3,6 +3,8 @@ using ArenaREST.Repositories;
 using QRCoder;
 using System.Drawing;
 using System.IO;
+using ArenaREST.DTOs;
+
 public class OrderService
 {
     private readonly OrderRepository _orderRepository;
@@ -17,7 +19,7 @@ public class OrderService
         return await _orderRepository.CreateOrder(order);
     }
 
-    public async Task<IEnumerable<Order>> GetActiveOrders()
+    public async Task<IEnumerable<ActiveOrderDto>> GetActiveOrders()
     {
         return await _orderRepository.GetActiveOrders();
     }

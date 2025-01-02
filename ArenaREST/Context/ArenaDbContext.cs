@@ -38,11 +38,11 @@ namespace ArenaREST.Context
                 .HasKey(oi => oi.OrderItemId);
 
         {
-            // Configure primary keys
+            //  primary keys
             modelBuilder.Entity<Order>().HasKey(o => o.OrderId);
             modelBuilder.Entity<OrderItem>().HasKey(oi => oi.OrderItemId);
 
-            // Configure relationships
+            //  relationships
             modelBuilder.Entity<Order>()
                 .HasMany(o => o.OrderItems)
                 .WithOne(oi => oi.Order)

@@ -8,5 +8,6 @@
 
         // Navigation property
         public Order Order { get; set; }
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using ArenaREST.Context;
 using ArenaREST.Models;
 using Microsoft.EntityFrameworkCore;
+using ArenaREST.DTOs;
 
 public class OrderRepository
 {
@@ -19,14 +20,27 @@ public class OrderRepository
         return order;
     }
 
-    public async Task<IEnumerable<Order>> GetActiveOrders()
+    public async Task<IEnumerable<ActiveOrderDto>> GetActiveOrders()
     {
         return await _context.Orders
-            .Include(o => o.OrderItems)
-            .ThenInclude(oi => oi.MenuItem)
             .Where(o => !o.IsCompleted)
+            .Select(o => new ActiveOrderDto
+            {
+                OrderId = o.OrderId,
+                Email = o.Email,
+                TotalAmount = o.TotalAmount,
+                CreatedAt = o.CreatedAt,
+                OrderItems = o.OrderItems.Select(oi => new OrderItemDto
+                {
+                    OrderItemId = oi.OrderItemId,
+                    MenuItemId = oi.MenuItemId,
+                    MenuItemName = oi.MenuItem != null ? oi.MenuItem.Name : "Unknown",
+                    Quantity = oi.Quantity
+                }).ToList()
+            })
             .ToListAsync();
     }
+
 
     public async Task<bool> MarkOrderAsCompleted(int orderId)
     {
