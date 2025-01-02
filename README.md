@@ -13,6 +13,7 @@ https://hovedopgteamet-cxdwanfbevcgcwhb.northeurope-01.azurewebsites.net/
 
 ## Related Repositories
 - **Frontend**: [ArenaMapApp-Frontend](https://github.com/eudk/ArenaMapApp-Frontend)
+Front end website: [here](https://arenahovedopg-a8dyeqb9bhh4d4ex.germanywestcentral-01.azurewebsites.net/).
 
 ---
 
@@ -100,48 +101,6 @@ https://hovedopgteamet-cxdwanfbevcgcwhb.northeurope-01.azurewebsites.net/
   ]
 }
 ```
-# Tools & Libraries Used
-
----
-
-### **Leaflet.js**
-- **Description:** Used for creating interactive maps to display stalls and event locations. Provides a responsive and visually appealing map interface.
-
-<p align="center">
-  <img src="https://leafletjs.com/docs/images/logo.png" alt="Leaflet Logo" width="100">
-</p>
-
----
-
-### **EmailJS**
-- **Description:** Enables order confirmation emails with details and QR codes. Seamless integration with the frontend for email delivery.
-
-<p align="center">
-  <img src="https://media2.dev.to/dynamic/image/width=500,height=210,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5d14su1hfqzbeqa2qhbr.png" alt="EmailJS Logo" width="150">
-</p>
-
----
-
-### **QRCode.js**
-- **Description:** Generates dynamic QR codes tied to orders. Simple and lightweight, perfect for frontend use cases.
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/600px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="QR Code Logo" width="100">
-</p>
-
----
-
-### **Vue.js**
-- **Description:** Framework for building the frontend user interface.
-- Features: Data bindings and reactive UI for smooth interactions.
-- **[Link](https://vuejs.org/)**
-
----
-
-### **Axios**
-- **Description:** Handles API calls for fetching, posting, and deleting data.
-- Simplifies integration with the backend REST API.
-- **[Link](https://axios-http.com/)**
 
 ---
 
@@ -166,3 +125,65 @@ https://hovedopgteamet-cxdwanfbevcgcwhb.northeurope-01.azurewebsites.net/
   - **Cost:** Free-tier with potential scaling.
 
 ---
+### Database tabeller
+```
+-- Table: Admins
+CREATE TABLE Admins (
+    AdminID INT NOT NULL PRIMARY KEY,
+    Username NVARCHAR(255) NOT NULL,
+    PasswordHash VARBINARY(MAX) NOT NULL,
+    PasswordSalt VARBINARY(MAX) NOT NULL,
+    LastLogin DATETIME NULL
+);
+
+-- Table: Events
+CREATE TABLE Events (
+    EventId INT NOT NULL PRIMARY KEY,
+    EventName NVARCHAR(100) NOT NULL,
+    EventDate DATETIME NOT NULL
+);
+
+-- Table: MenuItems
+CREATE TABLE MenuItems (
+    ItemId INT NOT NULL PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(500) NULL,
+    ImageBase64 NVARCHAR(MAX) NULL,
+    Price DECIMAL NOT NULL,
+    StallType NVARCHAR(50) NOT NULL
+);
+
+-- Table: OrderItems
+CREATE TABLE OrderItems (
+    OrderItemId INT NOT NULL PRIMARY KEY,
+    OrderId INT NOT NULL,
+    MenuItemId INT NOT NULL,
+    Quantity INT NOT NULL,
+    FOREIGN KEY (OrderId) REFERENCES Orders(OrderId),
+    FOREIGN KEY (MenuItemId) REFERENCES MenuItems(ItemId)
+);
+
+-- Table: Orders
+CREATE TABLE Orders (
+    OrderId INT NOT NULL PRIMARY KEY,
+    Email NVARCHAR(255) NOT NULL,
+    TotalAmount DECIMAL NOT NULL,
+    IsCompleted BIT NOT NULL,
+    QrCode NVARCHAR(MAX) NULL,
+    CreatedAt DATETIME NOT NULL,
+    StallId INT NOT NULL,
+    FOREIGN KEY (StallId) REFERENCES Stalls(StallId)
+);
+
+-- Table: Stalls
+CREATE TABLE Stalls (
+    StallId INT NOT NULL PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Type NVARCHAR(50) NOT NULL,
+    Coordinates NVARCHAR(50) NULL,
+    EventId INT NOT NULL,
+    Floor VARCHAR(50) NULL,
+    FOREIGN KEY (EventId) REFERENCES Events(EventId)
+);
+```
+
