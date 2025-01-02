@@ -19,9 +19,6 @@ jobs:
           dotnet-version: '8.0'
 
   
-
-      - name: Clean
-        run: dotnet clean && dotnet nuget locals all --clear
         
       - name: Restore
         run: dotnet restore --force
