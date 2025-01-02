@@ -19,19 +19,22 @@ namespace ArenaREST.Repositories.Tests
         [ClassInitialize]
         public static void InitOnce(TestContext context)
         {
-            string appSettingsJson = Environment.GetEnvironmentVariable("APPSETTINGS_JSON");
+            // Get the APPSETTINGS_JSON environment variable
+            var appSettingsJson = Environment.GetEnvironmentVariable("APPSETTINGS_JSON");
 
-            if (string.IsNullOrEmpty(appSettingsJson))
+            if (string.IsNullOrWhiteSpace(appSettingsJson))
             {
                 throw new Exception("APPSETTINGS_JSON environment variable is not set.");
             }
 
+            // Parse and load the JSON into the configuration
             var configuration = new ConfigurationBuilder()
                 .AddJsonStream(new MemoryStream(Encoding.UTF8.GetBytes(appSettingsJson)))
                 .Build();
 
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
+            // Configure the DbContext
             var optionsBuilder = new DbContextOptionsBuilder<ArenaDbContext>();
             optionsBuilder.UseSqlServer(connectionString);
 

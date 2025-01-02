@@ -180,7 +180,7 @@
               "RelativeDocumentMoniker": "ArenaRESTTests\\Repositories\\OrderRepositoryTests.cs",
               "ToolTip": "C:\\Users\\eugdk\\source\\repos\\ArenaMapApp-Backend\\ArenaRESTTests\\Repositories\\OrderRepositoryTests.cs",
               "RelativeToolTip": "ArenaRESTTests\\Repositories\\OrderRepositoryTests.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowFkAAAAvAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBkAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T14:17:20.141Z",
               "EditorCaption": ""
@@ -195,8 +195,7 @@
               "RelativeToolTip": "ArenaRESTTests\\Models\\MenuTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T14:16:05.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T14:16:05.752Z"
             },
             {
               "$type": "Document",
@@ -208,8 +207,7 @@
               "RelativeToolTip": "ArenaRESTTests\\Models\\StallTests.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA1wC4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T14:12:47.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T14:12:47.09Z"
             },
             {
               "$type": "Document",
@@ -221,8 +219,7 @@
               "RelativeToolTip": "ArenaRESTTests\\Models\\MenuItemTests.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwCQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T14:09:53.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T14:09:53.072Z"
             },
             {
               "$type": "Document",
@@ -234,8 +231,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\Menu.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAqwCcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:24.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:14:24.424Z"
             },
             {
               "$type": "Document",
@@ -247,8 +243,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\MenuItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:29:21.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T14:29:21.869Z"
             },
             {
               "$type": "Document",
@@ -260,8 +255,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\QRCode.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T15:43:36.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T15:43:36.771Z"
             },
             {
               "$type": "Document",
@@ -273,8 +267,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\Stall.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:14.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:14:14.157Z"
             },
             {
               "$type": "Document",
@@ -286,8 +279,7 @@
               "RelativeToolTip": "ArenaREST\\Services\\StallService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:17:03.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:17:03.182Z"
             },
             {
               "$type": "Document",
@@ -299,8 +291,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:32.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:14:32.711Z"
             },
             {
               "$type": "Document",
@@ -312,8 +303,7 @@
               "RelativeToolTip": "ArenaREST\\Context\\ArenaDbContext.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAqwCwAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:39:02.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:39:02.461Z"
             },
             {
               "$type": "Document",
@@ -325,8 +315,7 @@
               "RelativeToolTip": "ArenaREST\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T13:24:51.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:24:51.773Z"
             },
             {
               "$type": "Document",
@@ -338,8 +327,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T14:22:53.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T14:22:53.292Z"
             },
             {
               "$type": "Document",
@@ -351,8 +339,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\Admin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:01.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:14:01.315Z"
             },
             {
               "$type": "Document",
@@ -364,8 +351,7 @@
               "RelativeToolTip": "ArenaREST\\Services\\OrderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:16:53.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:16:53.115Z"
             },
             {
               "$type": "Document",
@@ -377,8 +363,7 @@
               "RelativeToolTip": "ArenaREST\\Repositories\\OrderRepository.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAUwDMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:15:49.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:15:49.614Z"
             },
             {
               "$type": "Document",
@@ -390,8 +375,7 @@
               "RelativeToolTip": "ArenaREST\\Controllers\\OrderController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:10:58.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:10:58.749Z"
             },
             {
               "$type": "Document",
@@ -403,8 +387,7 @@
               "RelativeToolTip": "ArenaREST\\Models\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:14:07.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:14:07.345Z"
             },
             {
               "$type": "Document",
@@ -452,8 +435,7 @@
               "RelativeToolTip": "ArenaREST\\DTOs\\ActiveOrderDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T13:58:07.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:58:07.034Z"
             },
             {
               "$type": "Document",
@@ -465,12 +447,7 @@
               "RelativeToolTip": "ArenaREST\\DTOs\\OrderItemDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T13:58:15.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-01-02T13:58:15.922Z"
             },
             {
               "$type": "Document",
@@ -639,6 +616,10 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T14:20:25.79Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
