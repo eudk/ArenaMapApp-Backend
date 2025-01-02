@@ -10,7 +10,7 @@ namespace ArenaREST.Models.Tests
         [TestMethod()]
         public void ValidateNameTest()
         {
-            var validMenu = new Menu { Name = "Pizza" };
+            var validMenu = new Menu { Name = "Pizzaa" };
             var emptyNameMenu = new Menu { Name = "" };
             var nullNameMenu = new Menu { Name = null };
             var longNameMenu = new Menu { Name = new string('A', 101) };
