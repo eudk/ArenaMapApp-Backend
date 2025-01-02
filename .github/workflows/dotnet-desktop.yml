@@ -22,7 +22,8 @@ jobs:
 
     # Set APPSETTINGS_JSON as an environment variable
     - name: Set AppSettings JSON
-      run: echo "${{ secrets.APPSETTINGS_JSON }}" > appsettings.json
+      run: echo '${{ secrets.APPSETTINGS_JSON }}' > appsettings.json
+
 
     # Restore dependencies
     - name: Restore dependencies
