@@ -1,0 +1,48 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Set up .NET
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0'
+
+    # Set APPSETTINGS_JSON as an environment variable
+    - name: Set AppSettings JSON
+      run: echo "${{ secrets.APPSETTINGS_JSON }}" > appsettings.json
+
+    # Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # Build the project
+    - name: Build
+      run: dotnet build --configuration Release
+
+    # Run tests
+    - name: Run tests
+      run: dotnet test --no-build --verbosity normal
+      env:
+        APPSETTINGS_JSON: ${{ secrets.APPSETTINGS_JSON }}
+
+    # Deploy to Azure Web App
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'hovedopgteamet' 
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: './bin/Release/net7.0/publish'  
