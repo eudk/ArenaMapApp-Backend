@@ -4,7 +4,7 @@
 [API Base URL](https://hovedopgteamet-cxdwanfbevcgcwhb.northeurope-01.azurewebsites.net/)
 
 ---
-
+[![CI/CD Pipeline](https://github.com/eudk/ArenaMapApp-Backend/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/eudk/ArenaMapApp-Backend/actions/workflows/dotnet-desktop.yml)
 ## **Endpoints Overview**
 
 ### **/EVENT**
@@ -17,18 +17,16 @@
 - **`PUT /api/stall/{id}`**: Update an existing stall.
 - **`DELETE /api/stall/{id}`**: Delete a stall.
 
-### **/QR**
-- **`POST /api/qr`**: Generate QR code for an order.
-- **`GET /api/qr/{orderId}`**: Get QR code by order ID.
-
 ### **/MENU**
-- **`GET /api/menu/{eventId}`**: Get menu items for an event.
-- **`POST /api/menu/{eventId}`**: Add a new menu item.
+- **`POST /api/menu/{menuItemId}`**: Add a new menu item.
+- **`GET /api/menu/all`**: All
+- **`GET /api/menu/type/{stallType}`**: All
 - **`DELETE /api/menu/{menuItemId}`**: Delete a menu item.
 
 ### **/ORDER**
 - **`GET /api/order/active`**: Get active orders.
 - **`PUT /api/order/{orderId}/complete`**: Mark an order as completed.
+- **`GET /api/order/{orderId}`**: Get all stalls.
 
 ### **/ADMIN**
 - **`POST /api/admin/login`**: Login as an administrator.
