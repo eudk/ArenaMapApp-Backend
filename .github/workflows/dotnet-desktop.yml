@@ -14,6 +14,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Clean build output
+      run: dotnet clean
+
     # Set up .NET
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
