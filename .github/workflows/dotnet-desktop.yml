@@ -14,11 +14,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    # Set up .NET
+    # Set up .NET (use .NET 8.0)
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '7.0'
+        dotnet-version: '8.0'  # Specify .NET 8.0 SDK version
 
     # Restore dependencies
     - name: Restore dependencies
