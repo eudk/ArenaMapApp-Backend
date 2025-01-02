@@ -3,10 +3,10 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on pushes to the main branch
 
 jobs:
-  build-and-test:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,19 +20,13 @@ jobs:
       with:
         dotnet-version: '8.0'
 
-    - name: Generate appsettings.json
-      run: |
-       echo "$APPSETTINGS_JSON" > ./ArenaRESTTests/bin/Debug/net8.0/appsettings.json
-       env:
-       APPSETTINGS_JSON: ${{ secrets.APPSETTINGS_JSON }}
-
     # Restore dependencies
     - name: Restore dependencies
       run: dotnet restore
 
     # Build the project
     - name: Build
-      run: dotnet build --configuration Debug
+      run: dotnet build --configuration Release
 
     # Run tests
     - name: Run tests
@@ -42,7 +36,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'hovedopgteamet' 
+        app-name: 'hovedopgteamet'  # Replace with your Azure App Service name
         slot-name: 'production'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: './bin/Release/net7.0/publish'  
+        package: './bin/Release/net8.0/publish'  # Adjust path if needed
