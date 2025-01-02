@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 using System.Linq;
+using System.Text;
 
 namespace ArenaREST.Repositories.Tests
 {
@@ -18,8 +19,15 @@ namespace ArenaREST.Repositories.Tests
         [ClassInitialize]
         public static void InitOnce(TestContext context)
         {
+            string appSettingsJson = Environment.GetEnvironmentVariable("APPSETTINGS_JSON");
+
+            if (string.IsNullOrEmpty(appSettingsJson))
+            {
+                throw new Exception("APPSETTINGS_JSON environment variable is not set.");
+            }
+
             var configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json")
+                .AddJsonStream(new MemoryStream(Encoding.UTF8.GetBytes(appSettingsJson)))
                 .Build();
 
             var connectionString = configuration.GetConnectionString("DefaultConnection");
@@ -30,6 +38,7 @@ namespace ArenaREST.Repositories.Tests
             _dbContext = new ArenaDbContext(optionsBuilder.Options);
             _repo = new OrderRepository(_dbContext);
         }
+
 
         [TestMethod()]
         public async Task CreateOrderTest()
