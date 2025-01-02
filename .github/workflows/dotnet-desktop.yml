@@ -20,11 +20,11 @@ jobs:
       with:
         dotnet-version: '8.0'
 
-    # Create appsettings.json
     - name: Generate appsettings.json
       run: |
-        mkdir -p ./ArenaRESTTests/bin/Debug/net8.0
-        echo '${{ secrets.APPSETTINGS_JSON }}' > ./ArenaRESTTests/bin/Debug/net8.0/appsettings.json
+       echo "$APPSETTINGS_JSON" > ./ArenaRESTTests/bin/Debug/net8.0/appsettings.json
+       env:
+       APPSETTINGS_JSON: ${{ secrets.APPSETTINGS_JSON }}
 
     # Restore dependencies
     - name: Restore dependencies
