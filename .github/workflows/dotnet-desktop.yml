@@ -1,38 +1,23 @@
 name: CI/CD Pipeline
-
 on:
   push:
-    branches:
-      - main
-
+    branches: [ main ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+    env:
+      APPSETTINGS_JSON: ${{ secrets.APPSETTINGS_JSON }}
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Full history for clean state
-          
       - uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0'
-
-  
-        
-      - name: Restore
-        run: dotnet restore --force
-        
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
-        
       - name: Test
-        run: dotnet test --no-build --verbosity normal
-        
+        run: dotnet test
       - name: Deploy
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'hovedopgteamet'
           slot-name: 'production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: './bin/Release/net8.0/publish'
+          package: './ArenaREST/bin/Debug/net8.0'
